@@ -1,0 +1,87 @@
+
+
+/******* MEDIA QUERIES *******/
+
+@media (max-width: 900px) {
+  #pagewrap, body {
+    width: auto;
+    /* float: none; */
+  }
+  .left-section {
+    width: auto;
+    float: none;
+    margin: 1%;
+  }
+  .right-section {
+    width: auto;
+    float: none;
+    margin: 1%;
+  }
+  .imgs {
+    width: 100%;
+    float: none;
+  }
+  #left-image, #middle-image {
+    margin: none;
+  }
+  nav ul li a {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+@media (max-width: 700px) {
+  #pagewrap,
+  #header,
+  body,
+  .logo,
+  .jobs,
+  .main-nav,
+  .main-nav a {
+    width: auto;
+    font-size: .98em;
+  }
+
+  .column,
+  .row {
+    width: auto;
+    font-size: 1em;
+    float: none;
+
+  }
+  nav ul li {
+    padding: 5px;
+  }
+
+}
+
+@media (max-width: 400px) {
+  #pagewrap,
+  #header,
+  body,
+  .logo,
+  .jobs,
+  .main-nav,
+  .main-nav a {
+
+    width: auto;
+    font-size: .98em;
+  }
+
+
+
+
+  .column,
+  .row,
+  li {
+    width: auto;
+    display:
+    font-size: .9em;
+    float: none;
+
+  }
+  nav ul li {
+    padding: 5px;
+  }
+}

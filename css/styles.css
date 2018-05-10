@@ -1,5 +1,4 @@
-
-*{
+* {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -ms-box-sizing: border-box;
@@ -7,99 +6,96 @@
   -moz-box-sizing: border-box;
   padding: 0;
   margin: 0;
+
 }
 
 body {
-  background-color: rgba(255,255,255,0);
-  padding-left: 100px;
-  padding-right: 100px;
-  margin-top: 75px;
+  background-color: rgba(255, 255, 255, 0);
+
+
 }
 
-/* #pagewrap{
+#pagewrap{
   max-width: 100%;
 
 
-} */
-
-#header {
-
-  margin-top: -60px;
-  margin-bottom: 100px;
-  display: block;
-
-
 }
 
-
-
-
-
+#header {
+  /* margin-top: -60px; */
+  margin-bottom: 50px;
+  display: block;
+  /* align-content: space-between; */
+}
 
 /************* NAV BAR STYLES ********** */
 
 /* Navbar container */
-.main-nav {
 
-  top: 11%;
-  right: 8%;
-  position: fixed;
-  float: right;
+.main-nav {
+  top: 10%;
+  right: 11.5%;
+  position: absolute;
+  /* float: right; */
   background-color: transparent;
   font-family: 'Poppins', sans-serif;
 
 }
 
 /* Links inside the navbar */
+
 .main-nav a {
-  font-size: 16px;
+  /* font-size: 16px; */
+  font-size: 2vw;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-
 }
 
 /* The dropdown container */
+
 .dropdown {
   overflow: hidden;
-
-
-
 }
 
 /* Dropdown button */
-.dropdown .dropbtn {
 
-  font-size: 24px;
+.dropdown .dropbtn {
+  /* font-size: 24px; */
+  font-size: 3vw;
   border: none;
   outline: none;
   color: black;
-  padding: 14px 16px;
+  /* padding: 14px 16px; */
   background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
+  font-family: inherit;
+  /* Important for vertical align on mobile phones */
+  margin: 0;
+  /* Important for vertical align on mobile phones */
 }
 
 /* Add a red background color to navbar links on hover */
+
 .main-nav a:hover, .dropdown:hover .dropbtn {
   /* background-color: grey; */
   opacity: 0.7;
-
 }
 
 /* Dropdown content (hidden by default) */
+
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
   /* min-width: 160px; */
   min-width: 100px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
 /* Links inside the dropdown */
+
 .dropdown-content a {
   float: none;
   color: black;
@@ -110,51 +106,41 @@ body {
 }
 
 /* Add a grey background color to dropdown links on hover */
+
 .dropdown-content a:hover {
   background-color: #ddd;
 }
 
 /* Show the dropdown menu on hover */
+
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
 /* *********** Classes ************* */
 
-
 .tree {
   width: 100%;
   opacity: 0.4;
   background-position: center;
   background-repeat: repeat;
-  height: 300px;
+  /* height: 300px; */
+
 }
 
-
 .logo {
-
   font-family: 'Poppins', sans-serif;
-  font-size: 45px;
+  /* font-size: 45px; */
+  font-size: 3vw;
   font-weight: 200;
   color: black;
-
-
-
-
-
 }
 
 .jobs {
-
-
-  
   font-family: 'Poppins', sans-serif;
-  font-size: 24px;
+  /* font-size: 24px; */
+  font-size: 1.9vw;
   color: black;
-
-
-
-
 }
 
 .row {
@@ -163,8 +149,6 @@ body {
   /* text-align: center; */
   /* padding-left: 100px; */
   /* padding-right: 100px; */
-
-
 }
 
 .column {
@@ -175,13 +159,11 @@ body {
   height: 300px;
   /* background-color: #FAF8F8; */
   background-size: auto;
-  margin-bottom: 200px;
+  margin-bottom: 20px;
 }
 
-.column,
- li {
+.column, li {
   list-style-type: none;
-
 }
 
 .column h1 {
@@ -190,69 +172,17 @@ body {
 }
 
 /* Clear floats after the columns */
+
 .row:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 footer {
-  margin-top: 300px;
+  /* margin-top: 300px; */
+  padding-top: 25px;
   padding-bottom: 25px;
   font-family: 'Poppins', sans-serif;
   text-align: center;
-
-}
-
-
-
-
-/******* MEDIA QUERIES *******/
-
-@media (max-width: 900px){
-  #pagewrap,
-  body {
-		width: auto;
-		float: none;
-	}
-
-	.left-section {
-		width: auto;
-		float: none;
-		margin: 1%;
-	}
-
-  .right-section{
-    width: auto;
-    float: none;
-    margin: 1%;
-  }
-
-  .imgs{
-    width: 100%;
-    float: none;
-  }
-
-  #left-image, #middle-image{
-    margin: none;
-  }
-
-  nav ul li a{
-    text-align: center;
-    padding: 0;
-    margin: 0;
-  }
-
-}
-
-@media (max-width: 400px){
-  #pagewrap ,
-  body {
-    width: auto;
-    font-size: .98em;
-  }
-
-  nav ul li{
-    padding: 5px;
-  }
 }
