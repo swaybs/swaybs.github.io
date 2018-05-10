@@ -59,8 +59,16 @@
     font-size: 30px;
   }
 
+  .column p {
+    font-size: 11px;
+  }
+
+  .logo, .jobs {
+
 
   }
+
+
   /* .row p h1 {
     float: none;
     width: 100%;
