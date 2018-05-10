@@ -49,24 +49,29 @@
     width: auto;
     /* font-size: .98em; */
   }
-  .row {
+
+  #row {
+    min-width: 100%;
+
+  }
+
+
+  }
+  /* .row p h1 {
     float: none;
     width: 100%;
     padding-top: 10%;
     padding-bottom: 50px;
     margin-right: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
     font-size: .9em;
-  }
+  } */
 
   .tree {
     max-width: 100%;
 
   }
-  div h1 {
-    font-size: 2em;
 
-  }
 
   nav ul li {
     padding: 5px;
