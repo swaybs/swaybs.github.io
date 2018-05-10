@@ -47,12 +47,16 @@
 @media (max-width: 400px) {
   #pagewrap, #header, body, .logo, .jobs, .main-nav, .main-nav a {
     width: auto;
-    /* font-size: .98em; */
+      font-size: .98em;
   }
 
   #row {
     min-width: 100%;
 
+  }
+
+  .column h1 {
+    font-size: 30px;
   }
 
 
