@@ -10,12 +10,12 @@
   body {
 
     max-width: 100%;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
   }
 
-  column h1 {
-    font-size: 1.5em;
+  /* .column h1 {
+    font-size: 1em;
   }
 
   .column, li {
@@ -27,7 +27,7 @@
     font-size: 0.9em;
   }
 
-}
+} */
 
 
 @media (max-width: 768px) {
@@ -37,7 +37,7 @@
   }
 
   body {
-
+    font-size: 16px;
     max-width: 100%;
     margin-left: 50px;
     margin-right: 50px;
@@ -53,10 +53,11 @@
   }
 
   body {
-
+    font-size: 16px;
     max-width: 100%;
     margin-left: 20px;
     margin-right: 20px;
   }
+
 
 }
