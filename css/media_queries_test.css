@@ -2,10 +2,42 @@
 
 /* MEDIA QUERIES */
 
+@media (max-width: 1920px) {
+  #pagewrap {
+    max-width: 100%;
+  }
+
+  body {
+
+    max-width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  column h1 {
+    font-size: 1.5em;
+  }
+
+  .column, li {
+    list-style-type: none;
+    font-size: 0.9em;
+  }
+
+  .column p {
+    font-size: 0.9em;
+  }
+
+}
+
 
 @media (max-width: 768px) {
 
+  #pagewrap {
+    max-width: 100%;
+  }
+
   body {
+
     max-width: 100%;
     margin-left: 50px;
     margin-right: 50px;
@@ -14,16 +46,17 @@
 
 }
 
-@media (max-width: 400px) {
+@media (max-width: 425px) {
 
-  /* #pagewrap {
-    width: 100%;
-  } */
+  #pagewrap {
+    max-width: 100%;
+  }
 
   body {
-    /* max-width: 100%; */
-    margin-left: 10px;
-    margin-right: 10px;
+
+    max-width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
 }
