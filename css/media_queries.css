@@ -51,7 +51,7 @@
   }
 
   #row {
-    min-width: 100%;
+    max-width: 100%;
 
   }
 
@@ -64,7 +64,8 @@
   }
 
   .logo, .jobs {
-
+    max-width: 100%;
+    
 
   }
 

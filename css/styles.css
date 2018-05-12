@@ -11,6 +11,7 @@
 
 body {
   background-color: rgba(255, 255, 255, 0);
+  
 
 
 }
@@ -143,6 +144,8 @@ body {
   font-size: 1.9vw;
   color: black;
 }
+
+
 
 #row {
   padding-top: 75px;
