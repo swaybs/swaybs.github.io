@@ -2,7 +2,7 @@
 
 /* MEDIA QUERIES */
 
-@media (min-width: 1920px) {
+@media (max-width: 1920px) {
   #pagewrap {
     max-width: 100%;
   }
@@ -30,7 +30,7 @@
 } */
 
 
-@media (min-width: 414px) {
+@media (max-width: 900px) {
 
   #pagewrap {
     max-width: 100%;
@@ -46,7 +46,7 @@
 
 }
 
-@media (min-width: 320px) {
+@media (max-width: 600px) {
 
   #pagewrap {
     max-width: 100%;
