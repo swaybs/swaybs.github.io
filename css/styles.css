@@ -11,7 +11,7 @@
 
 body {
   background-color: rgba(255, 255, 255, 0);
-  
+  font-size: 16px;
 }
 
 #pagewrap{
@@ -129,7 +129,7 @@ body {
 
 .logo {
   font-family: 'Poppins', sans-serif;
-  font-size: 3em;
+  font-size: 1.7em;
   /* font-size: 45px; */
   /* font-size: 3vw; */
   font-weight: 200;
@@ -139,7 +139,7 @@ body {
 
 .jobs {
   font-family: 'Poppins', sans-serif;
-  font-size: 2em;
+  font-size: 0.7em;
   /* font-size: 24px; */
   /* font-size: 1.9vw; */
   color: black;
@@ -179,14 +179,14 @@ body {
 }
 
 .column h1 {
-  font-size: 2em;
+  font-size: 1em;
   padding-top: 30px;
   /* padding-bottom: 30px; */
   color: gray;
 }
 
 .column p {
-  font-size: 1em;
+  font-size: 0.7em;
 }
 
 /* Clear floats after the columns */
@@ -208,7 +208,7 @@ body {
 /* Style all font awesome icons */
 .fa {
     padding: 1em;
-    font-size: 1.5em;
+    font-size: 1em;
     width: 2em;
     text-align: center;
     text-decoration: none;
