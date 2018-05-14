@@ -33,9 +33,11 @@ body {
 
 .main-nav {
   top: 10%;
-  right: 11.5%;
+  /* right: 11.5%; */
+  right: 10%;
   position: absolute;
-  /* float: right; */
+
+
   background-color: transparent;
   font-family: 'Poppins', sans-serif;
 
@@ -175,11 +177,11 @@ body {
 
 .column, li {
   list-style-type: none;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 .column h1 {
-  font-size: 1em;
+  font-size: 1.5em;
   padding-top: 30px;
   /* padding-bottom: 30px; */
   color: gray;
@@ -230,7 +232,7 @@ body {
 
 /* Twitter */
 .fa-instagram {
-    /* background: #55ACEE; */
+    /* text: #55ACEE; */
     color: black;
 }
 
