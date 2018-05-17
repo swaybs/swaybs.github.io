@@ -20,7 +20,7 @@ body {
 #header {
   /* margin-top: -60px; */
   /* margin-bottom: 50px; */
-  display: block;
+  /* display: block; */
   /* align-content: space-between; */
 }
 
@@ -166,6 +166,7 @@ body {
   background-color: #FAF8F8;
   background-size: auto;
   margin-bottom: 25px;
+  width:
 }
 
 .column, li {
