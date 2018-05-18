@@ -7,12 +7,7 @@
     max-width: 100%;
   }
 
-  body {
 
-    max-width: 100%;
-    margin-left: 100px;
-    margin-right: 100px;
-  }
 
   /* .column h1 {
     font-size: 1em;
@@ -36,13 +31,7 @@
     max-width: 100%;
   }
 
-  body {
-    /* font-size: 16px; */
-    max-width: 100%;
-    margin-left: 50px;
-    margin-right: 50px;
 
-  }
 
 }
 
@@ -52,11 +41,17 @@
     max-width: 100%;
   }
 
-  body {
 
-    max-width: 100%;
-    margin-left: 20px;
-    margin-right: 20px;
+
+
+
+  .logo,
+  .jobs,
+  .social-media-icons {
+      float: left;
+      display: flex;
+      flex-direction: row;
+
   }
 
 
@@ -67,7 +62,15 @@
 
   #pagewrap {
     max-width: 100%;
+  }
 
+  .logo, .jobs, .social-media-icons {
+    display: flex;
+    float: left;
+    flex-direction: row;
+    flex-wrap: wrap;
 
   }
+
+
 }
