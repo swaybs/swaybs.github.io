@@ -17,12 +17,6 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-.below-header {
-  /* max-width: auto; */
-  display: contents;
-  width: 100%;
-}
-
 /************* NAV BAR STYLES ********** */
 
 /* Navbar container */
@@ -30,13 +24,9 @@ body {
 .navbar {
   width: auto;
   margin-top: -3em;
-  /* position: relative; */
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
-  /* top: 10%;
-  right: 10%; */
-  /* position: absolute; */
   background-color: transparent;
   font-family: 'Poppins', sans-serif;
 }
@@ -131,7 +121,7 @@ body {
 
 .jobs {
   font-family: 'Poppins', sans-serif;
-  font-size: 0.7em;
+  font-size: 0.9em;
   color: black;
 }
 
@@ -144,7 +134,6 @@ body {
 
 .container {
   width: 100%;
-
 }
 
 .column {
@@ -198,7 +187,7 @@ body {
   /* background-color: #FAF8F8; */
   /* margin-top: -3em; */
   /* display: flex; */
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 /* Style all font awesome icons */

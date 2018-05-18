@@ -41,21 +41,19 @@
     max-width: 100%;
   }
 
-
-
-
-
   .logo,
   .jobs,
   .social-media-icons {
-      float: left;
+      /* float: left;
       display: flex;
-      flex-direction: row;
+      flex-direction: column; */
 
   }
 
-
 }
+
+
+
 
 
 @media (min-width: 320px) {
@@ -64,13 +62,16 @@
     max-width: 100%;
   }
 
+
   .logo, .jobs, .social-media-icons {
-    display: flex;
+    /* display: flex;
     float: left;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    flex-wrap: wrap; */
 
   }
+
+
 
 
 }
