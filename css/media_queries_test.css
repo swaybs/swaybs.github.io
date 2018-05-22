@@ -58,18 +58,17 @@
 
 @media (min-width: 320px) {
 
+  html {
+    font-size: 16px;
+
+  }
+
   #pagewrap {
     max-width: 100%;
   }
 
 
-  .logo, .jobs, .social-media-icons {
-    /* display: flex;
-    float: left;
-    flex-direction: column;
-    flex-wrap: wrap; */
 
-  }
 
 
 
