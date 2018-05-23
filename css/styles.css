@@ -24,10 +24,9 @@ body {
 
 .navbar {
   width: auto;
-  /* margin-top: -3em; */
   display: flex;
+  justify-content: flex-end;
   flex-wrap: wrap;
-  /* justify-content: flex-end; */
   background-color: transparent;
   font-family: 'Poppins', sans-serif;
 }
@@ -138,7 +137,8 @@ body {
 .container {
   background-color: #FAF8F8;
   width: 100%;
-  display: flex;
+  /* display: flex; */
+  flex-basis: auto;
   justify-content: space-between;
   position: fixed;
   top: 0;
@@ -181,12 +181,9 @@ body {
   clear: both;
 }
 
-
-
 /*************** CONTACT FORM *******************/
 
 input[type=text], select, textarea {
-
   width: 100%;
   padding: 15px;
   border: 2px solid grey;
@@ -194,19 +191,16 @@ input[type=text], select, textarea {
   box-sizing: border-box;
   margin-top: 10px;
   margin-bottom: 20px;
-
 }
 
 input[type=submit] {
   padding: 10px 20px;
   border-radius: 4px;
   cursor: pointer;
-
 }
 
 input[type=submit]:hover {
   background-color: lightgrey;
-
 }
 
 .contact-form {
@@ -214,8 +208,6 @@ input[type=submit]:hover {
   margin-top: 20px;
   background-color: #FAF8F8;
   width: auto;
-
-
 }
 
 /*************** SOUNDCLOUD PLAYER ************************/
@@ -223,15 +215,13 @@ input[type=submit]:hover {
 .sc_player {
   padding: 20px;
   background-color: #FAF8F8;
-  padding-left: 300px;
-  padding-right: 300px;
   padding-bottom: 100px;
 }
 
 /*********** SOCIAL MEDIA ICONS ************/
 
 .social-media-icons {
-  /* position: fixed; */
+  position: fixed;
 }
 
 /* Style all font awesome icons */
