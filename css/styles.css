@@ -5,6 +5,7 @@
 }
 
 body {
+  /* margin: 75px !important; */
   max-width: 100%;
   background-color: rgba(255, 255, 255, 0);
   font-size: 16px;
@@ -23,6 +24,7 @@ body {
 /* Navbar container */
 
 .navbar {
+  right: auto;
   width: auto;
   display: flex;
   justify-content: flex-end;
@@ -83,7 +85,9 @@ body {
 .dropdown-content a {
   float: none;
   color: black;
-  padding: 12px 16px;
+  padding-left: 12px;
+  padding-top: 12px;
+  /* padding: 12px 16px; */
   text-decoration: none;
   display: block;
   text-align: left;
@@ -229,7 +233,7 @@ input[type=submit]:hover {
 .fa {
   padding: 1em;
   font-size: 1em;
-  width: 2em;
+  width: 2.2em;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
@@ -266,6 +270,10 @@ input[type=submit]:hover {
 }
 
 .fa-facebook {
+  color: black;
+}
+
+.fa-soundcloud {
   color: black;
 }
 
