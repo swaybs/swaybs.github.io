@@ -1,0 +1,41 @@
+
+
+/*************** CONTACT FORM *******************/
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid grey;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+input[type=submit] {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: lightgrey;
+}
+
+div .contact-form {
+
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 130px;
+  background-color: #FAF8F8;
+  width: 75%;
+  margin-bottom: 130px;
+}
+
+div .contact-form label {
+  font-weight: bold;
+
+}
