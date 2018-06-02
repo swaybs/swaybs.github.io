@@ -18,10 +18,8 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-a[href*="mail"],
-a[href*="tel"] {
+a[href*="mail"], a[href*="tel"] {
   color: tomato;
-
 }
 
 /************* NAV BAR STYLES ********** */
@@ -29,13 +27,12 @@ a[href*="tel"] {
 /* Navbar container */
 
 .navbar {
-  right: auto;
-  width: auto;
-  display: flex;
-  justify-content: flex-end;
-  flex-wrap: wrap;
+  position: relative;
+  text-align: center;
   background-color: transparent;
   font-family: 'Poppins', sans-serif;
+  /* border-bottom: 2px solid black; */
+  padding-bottom: 10px;
 }
 
 /* Links inside the navbar */
@@ -47,67 +44,33 @@ a[href*="tel"] {
   text-decoration: none;
 }
 
-/* The dropdown container */
-
-.dropdown {
-  overflow: hidden;
-}
-
-/* Dropdown button */
-
-.dropdown .dropbtn {
-  border: none;
-  outline: none;
-  color: black;
-  background-color: inherit;
-  font-family: inherit;
-  /* Important for vertical align on mobile phones */
-  margin: 0;
-  /* Important for vertical align on mobile phones */
-}
-
-/* Add a red background color to navbar links on hover */
-
-.main-nav a:hover, .dropdown:hover .dropbtn {
-  /* background-color: grey; */
-  opacity: 0.7;
-}
-
-/* Dropdown content (hidden by default) */
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  /* min-width: 160px; */
-  min-width: 100px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
 
 /* Links inside the dropdown */
 
 .dropdown-content a {
-  float: none;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
   color: black;
-  padding-left: 12px;
+  /* padding-left: 12px; */
   padding-top: 12px;
-  /* padding: 12px 16px; */
+  padding: 12px 16px;
   text-decoration: none;
-  display: block;
-  text-align: left;
+}
+
+/* Active Menu Item */
+
+.active {
+  border-bottom: 2px solid tomato;
+
+
 }
 
 /* Add a grey background color to dropdown links on hover */
 
 .dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-/* Show the dropdown menu on hover */
-
-.dropdown:hover .dropdown-content {
-  display: block;
+  /* background-color: #ddd; */
+  color: tomato;
 }
 
 /* *********** Classes ************* */
@@ -116,7 +79,7 @@ a[href*="tel"] {
   display: block;
   margin: auto;
   padding-top: 80px;
-  width: 100%;
+  width: 90%;
   opacity: 0.7;
   background-position: center;
   background-repeat: repeat;
@@ -130,132 +93,143 @@ a[href*="tel"] {
   font-weight: 200;
   color: black;
   padding-top: 30px;
-
 }
 
 /* Change Font size of Name and Fields */
 
+.jobs {
+  text-align: center;
+  font-family: 'Libre Frankin', sans-serif;
+  /* font-size: 1.2em; */
+  font-size: 28px;
+  color: black;
+  padding-top: 10px;
+}
 
+.row {
+  display: block;
+  margin: auto;
+  width: 75%;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  width: 100%;
+
+}
+
+.column {
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  height: auto;
+  background-color: #FAF8F8;
+  margin-bottom: 25px;
+}
+
+.column li {
+  list-style-type: none;
+  font-size: 1.2em;
+}
+
+.column h1 {
+  font-size: 2em;
+  padding-top: 5px;
+  color: gray;
+}
+
+.column p {
+  font-size: 1em;
+}
+
+/* Clear floats after the columns */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*********** SOCIAL MEDIA ICONS ************/
+
+.social-media-icons {
+  position: relative;
+  text-align: center;
+
+}
+
+/* Style all font awesome icons */
+
+.fa {
+  /* padding: 1em; */
+  padding: 16px;
+  font-size: 16px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+
+.fa:hover {
+  opacity: 0.7;
+  color: red;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+
+.fa-github {
+  /* background: #3B5998; */
+  color: black;
+}
+
+/* Twitter */
+
+.fa-instagram {
+  /* text: #55ACEE; */
+  color: black;
+}
+
+/* Linked-IN */
+
+.fa-linkedin {
+  /* background: #55ACEE; */
+  color: black;
+}
+
+.fa-facebook {
+  color: black;
+}
+
+.fa-soundcloud {
+  color: black;
+}
+
+footer {
+  /* margin-top: 300px; */
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+/* Media Queries */
+
+@media (min-width: 320px) {
+  .logo {
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 760px) {
+  .logo {
+    font-size: 48px;
+  }
   .jobs {
-    text-align: center;
-    font-family: 'Libre Frankin', sans-serif;
-    /* font-size: 1.2em; */
     font-size: 28px;
-    color: black;
-    padding-top: 10px;
   }
-  .row {
-    display: block;
-    margin: auto;
-    width: 75%;
-    padding-top: 75px;
-    padding-bottom: 75px;
-    font-family: 'Poppins', sans-serif;
-  }
-  .container {
-    display: block;
-    margin: auto;
-    background-color: #FAF8F8;
-    width: 100%;
-    justify-content: space-between;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
-  .column {
-    text-align: center;
-    border-radius: 5px;
-    padding: 10px;
-    height: auto;
-    background-color: #FAF8F8;
-    margin-bottom: 25px;
-  }
-  .column li {
-    list-style-type: none;
-    font-size: 1.2em;
-  }
-  .column h1 {
-    font-size: 2em;
-    padding-top: 5px;
-    color: gray;
-  }
-  .column p {
-    font-size: 1em;
-  }
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  /*********** SOCIAL MEDIA ICONS ************/
-  .social-media-icons {
-    position: fixed;
-  }
-  /* Style all font awesome icons */
-  .fa {
-    /* padding: 1em; */
-    padding: 16px;
-    font-size: 16px;
-    width: 10px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-  }
-  /* Add a hover effect if you want */
-  .fa:hover {
-    opacity: 0.7;
-    color: red;
-  }
-  /* Set a specific color for each brand */
-  /* Facebook */
-  .fa-github {
-    /* background: #3B5998; */
-    color: black;
-  }
-  /* Twitter */
-  .fa-instagram {
-    /* text: #55ACEE; */
-    color: black;
-  }
-  /* Linked-IN */
-  .fa-linkedin {
-    /* background: #55ACEE; */
-    color: black;
-  }
-  .fa-facebook {
-    color: black;
-  }
-  .fa-soundcloud {
-    color: black;
-  }
-  footer {
-    /* margin-top: 300px; */
-    padding-top: 25px;
-    padding-bottom: 25px;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-  }
-  /* Media Queries */
-
-
-
-  @media (min-width: 320px) {
-
-    .logo {
-      font-size: 48px;
-    }
-
-
-  }
-
-  @media (min-width: 760px) {
-
-    .logo {
-      font-size: 48px;
-    }
-
-    .jobs {
-      font-size: 28px;
-    }
