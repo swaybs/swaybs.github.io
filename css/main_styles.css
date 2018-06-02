@@ -78,7 +78,7 @@ a[href*="mail"], a[href*="tel"] {
 .tree {
   display: block;
   margin: auto;
-  padding-top: 80px;
+  padding-top: 20px;
   width: 90%;
   opacity: 0.7;
   background-position: center;
@@ -92,7 +92,7 @@ a[href*="mail"], a[href*="tel"] {
   font-size: 32px;
   font-weight: 200;
   color: black;
-  padding-top: 30px;
+  padding-top: 50px;
 }
 
 /* Change Font size of Name and Fields */
@@ -222,7 +222,11 @@ footer {
 
 @media (min-width: 320px) {
   .logo {
-    font-size: 48px;
+    font-size: 32px;
+  }
+
+  .jobs {
+    font-size: 20px;
   }
 }
 
