@@ -23,6 +23,7 @@ html {
   display: none;
   text-align: center;
   padding: 100px 0;
+  font-size: 24px;
 
 }
 
@@ -32,13 +33,19 @@ html {
   color: #FAF8F8;
   font-weight: 700;
 
+
 }
 
 .fa {
+
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  color: #CEEBEE;
+  /* color: #CEEBEE; */
+  color: tomato;
+  opacity: 0.8;
+
+
 }
 
 

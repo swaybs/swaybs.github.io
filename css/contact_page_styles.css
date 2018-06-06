@@ -35,6 +35,26 @@ div .contact-form {
   margin-bottom: 130px;
 }
 
+/* Contact form width for small screens */
+
+@media (max-width: 800px) {
+  div .contact-form {
+
+    width: 75%;
+  }
+
+}
+
+@media (max-width: 425px) {
+  div .contact-form {
+
+    width: 95%;
+  }
+
+}
+
+/* ************************************* */
+
 div .contact-form label {
   font-weight: bold;
 
