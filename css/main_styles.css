@@ -92,7 +92,8 @@ a[href*="mail"], a[href*="tel"] {
   /* font-size: 4em; */
   font-size: 32px;
   font-weight: 200;
-  color: black;
+  color: #555E66;
+  /* color: #93B391; */
   padding-top: 50px;
 }
 
@@ -104,7 +105,8 @@ a[href*="mail"], a[href*="tel"] {
   font-family: 'Work Sans', sans-serif;
   /* font-size: 1.2em; */
   font-size: 28px;
-  color: black;
+  /* color: black; */
+  color: #555E66;
   padding-top: 10px;
 }
 
