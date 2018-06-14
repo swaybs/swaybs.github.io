@@ -6,5 +6,17 @@
 
 
 $(document).ready(function () {
-    $('div:hidden:first').fadeIn(3000).removeClass('hidden');
+
+    $('.fa.hidden').addClass('social_show').animate({
+      width: '100px',
+      color: 'purple'
+
+
+
+
+    });
+
+
+
+    // $('#header').slideDown(3000);
 });
