@@ -1,6 +1,7 @@
-
 html {
-  background-image: url(../img/california_home_page.jpg);
+  /* background-image: url(../img/california_home_page.jpg); */
+  /* background-image: url(../img/hand_light.jpg); */
+  background-color: #FBFFF2;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -8,26 +9,32 @@ html {
 }
 
 #enter-page-click {
-
   text-align: center;
   font-size: 24px;
   font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
-
 }
 
+.box-shadow {
+  max-width: 75%;
+  margin: 10% auto;
+  box-shadow: -80px 0 8px rgba(0, 0, 0, 0.4);
+}
 
+.container-box {
+  position: relative;
+  /* max-width: 75%; */
+  /* margin: 10% auto; */
+  padding: 40px 0;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
 
 .enter-page-logo {
-  text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
-
-  /* display: none;   */
+  /* box-shadow: -80px 0 8px rgba(0, 0, 0, 0.4); */
   text-align: center;
-  padding: 200px 0;
   font-size: 24px;
+  opacity: 0.7;
 }
-
-
 
 @media (max-width: 500px) {
   body {
@@ -35,81 +42,42 @@ html {
   }
 }
 
-
 @media (max-width: 850px) {
   .enter-page-logo {
     padding: 50px 0;
   }
 }
 
-
-
-
-
-
-
-
-.logo,
-.jobs {
+.logo, .jobs {
   font-family: 'Ubuntu', sans-serif;
-  color: #FAF8F8;
-
+  color: black;
   font-weight: 700;
-
-
-
-
 }
 
 .fa {
-
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  /* color: #CEEBEE; */
-  color: tomato;
-  opacity: 0.8;
-
-
+  color: #1C2217;
 }
 
 .fa.hidden {
-  margin-top: 100px;
-
+  margin-top: px;
 }
-
-.social-media-icons-enter-page {
-  height: 56px;
-  overflow: hidden;
-}
-
-
-
-.fa.hidden.social_show {
-  -webkit-transition: all 2s ease;
-    -moz-transition: all 2s ease;
-    -o-transition: all 2s ease;
-    transition: all 2s ease;
-  margin-top: 0;
-  text-shadow: 4px black;
-
-
-}
-
 
 .enter-page-btn {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
-  color: white;
-  /* text-shadow: 1px 1px 2px rgba(150, 150, 150, 1); */
-  text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+  color: #070407;
   font-size: 32px;
   margin-top: 0px;
   padding: 12px 16px;
   border: hidden;
-
   cursor: pointer;
   background-color: transparent;
+  opacity: 0.9;
+}
 
-
+.enter-page-btn:hover {
+  text-decoration: underline;
 }
