@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" type="text/css" href="./css/main_styles.css">
   <link rel="stylesheet" type="text/css" href="./css/contact_page_styles.css">
+  <link rel="stylesheet" href="./css/animate.min.css">
 
 
 
@@ -94,7 +95,7 @@
 
 
 
-      <!-- </div>
+        <!-- </div>
 
 
       <img src="img/coffee_cropped.jpg" alt="Coffee" class="tree">
@@ -104,34 +105,86 @@
 
 
 
-    <div class="contact-form">
+        <div class="contact-form">
 
-      <form>
-
-        <!-- <label for="fname">First Name</label> -->
-        <input type="text" id="fname" name="firstname" placeholder="FIRST NAME">
-
-        <!-- <label for="lname">Last Name</label> -->
-        <input type="text" id="lname" name="lastname" placeholder="LAST NAME">
-
-        <!-- <label for="email">Your Email</label> -->
-        <input type="text" id="email" name="email" placeholder="E-MAIL">
-
-        <!-- <label for="subject">Write me a love letter.</label> -->
-        <textarea id="subject" name="subject" placeholder="SUBJECT"></textarea>
-
-        <input type="submit" value="Send">
-      </form>
-
-    </div>
+          <!-- <form>
 
 
 
 
+            <input type="text" id="fname" class="animated bounceIn" name="firstname" placeholder="FIRST NAME">
+
+
+            <input type="text" id="lname" class="animated bounceIn" name="lastname" placeholder="LAST NAME">
+
+
+            <input type="text" id="email" class="animated bounceIn" name="email" placeholder="E-MAIL">
+
+
+            <textarea id="subject" class="animated bounceIn" name="subject" placeholder="SUBJECT"></textarea>
+
+            <input type="submit" value="Send" class="animated bounceIn">
+          </form> -->
+
+          <form name="contactform" method="post" action="php/send_form_email.php">
+<table width="450px">
+<tr>
+ <td valign="top">
+  <label for="first_name">First Name *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="first_name" maxlength="50" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top"">
+  <label for="last_name">Last Name *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="last_name" maxlength="50" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="email">Email Address *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="email" maxlength="80" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="telephone">Telephone Number</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="telephone" maxlength="30" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="comments">Comments *</label>
+ </td>
+ <td valign="top">
+  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+ </td>
+</tr>
+<tr>
+ <td colspan="2" style="text-align:center">
+  <input type="submit" value="Submit">   <a href="http://www.freecontactform.com/email_form.php">Email Form</a>
+ </td>
+</tr>
+</table>
+</form>
+
+        </div>
 
 
 
-  </div>
+
+
+
+
+      </div>
 </body>
 
 </html>
