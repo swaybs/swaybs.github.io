@@ -17,30 +17,38 @@ $(document).ready(function(){
 
 /*! Fades in page on load */
 $('html').css('display', 'none');
-$('html').fadeIn(3500);
+$('html').fadeIn(500);
+
+$('.my-logo').addClass('animated flipInY');
+$('.enter-page-btn').delay(3000).addClass('animated flipInX');
+
+
+
 
 });
 
 // Box shadow effect with OkShadow //
 
-$('.box-shadow').okshadow({
-  color: '#555',
-  textShadow: false,
-  xMax: 10,
-  yMax: 30,
-  yOffset: 5,
-  fuzzMin: 1,
-  fuzzMax: 10,
-});
-
-// Text shadow effect with OkShadow //
-
-$('.enter-page-logo').okshadow({
-  color: '#555',
-  textShadow: true,
-  xMax: 10,
-  yMax: 30,
-  yOffset: 5,
-  fuzzMin: 1,
-  fuzzMax: 10,
-});
+// $('.box-shadow').okshadow({
+//   // color: '#555',
+//   color: '#DAD2D8',
+//   textShadow: false,
+//   xMax: 5,
+//   yMax: 10,
+//   yOffset: 5,
+//   fuzzMin: 1,
+//   fuzzMax: 10,
+// });
+//
+// // Text shadow effect with OkShadow //
+//
+// $('.enter-page-logo').okshadow({
+//   // color: '#555',
+//   color: '#DAD2D8',
+//   textShadow: true,
+//   xMax: 5,
+//   yMax: 10,
+//   yOffset: 5,
+//   fuzzMin: 1,
+//   fuzzMax: 10,
+// });
