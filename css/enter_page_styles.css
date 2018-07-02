@@ -55,6 +55,7 @@ div .animated {
 
 @media (max-width: 350px ) {
   .my-logo {
+
     width: 200px;
     height: 200px;
   }

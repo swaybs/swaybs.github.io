@@ -76,13 +76,21 @@ a[href*="mail"], a[href*="tel"] {
 
 .tree {
   display: block;
-  margin: auto;
+  margin: 0 auto;
+
   padding-top: 20px;
-  width: 90%;
+  width: 80%;
   opacity: 0.7;
   background-position: center;
   background-repeat: repeat;
-  border-bottom: 1px solid #ddd;
+
+}
+
+@media (max-width: 400px ){
+  .tree {
+    width: 100%;
+
+  }
 }
 
 .logo {
@@ -118,7 +126,7 @@ section {
   display: block;
   margin: auto;
   width: 75%;
-  padding-top: 75px;
+  /* padding-top: 75px; */
   padding-bottom: 75px;
   font-family: 'Poppins', sans-serif;
 }
