@@ -17,9 +17,10 @@ $(document).ready(function(){
 
 /*! Fades in page on load */
 $('html').css('display', 'none');
-$('html').fadeIn(500);
+$('html').delay(250).fadeIn(500);
 
 $('.my-logo').addClass('animated flipInY');
+$('.social-media-icons-enter-page').delay(1000).addClass('animated flipInX');
 $('.enter-page-btn').delay(3000).addClass('animated flipInX');
 
 

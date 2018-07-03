@@ -1,11 +1,14 @@
-
-
-
 /*************** SOUNDCLOUD PLAYER ************************/
+
 div .row {
   width: 50%;
-
 }
+
+/* .fa:hover {
+  transition: .7s ease;
+  transform: scale(1.5);
+  transition-duration: 200;
+} */
 
 .sc_player {
   margin: 0 auto;
@@ -16,28 +19,25 @@ div .row {
 }
 
 .videos {
-
   text-align: center;
   margin: auto;
-
 }
 
 .videoWrapper {
-
-
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 25px;
-	height: 0;
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0;
 }
+
 .videoWrapper iframe {
-
-
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+  position: absolute;
+  padding-bottom: 15px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 @media (max-width: 425px) {
