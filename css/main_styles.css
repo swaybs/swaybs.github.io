@@ -142,13 +142,13 @@ section {
   padding-top: 30px;
   padding-bottom: 30px;
   height: auto;
-  width: 75%;
+  /* width: 75%; */
   margin-bottom: 25px;
   border-bottom: 1px solid #ddd;
 }
 
 .column li {
-  
+
   list-style-type: none;
   font-size: 1.2em;
 }

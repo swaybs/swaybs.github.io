@@ -24,9 +24,8 @@ $('.social-media-icons-enter-page').delay(1000).addClass('animated flipInX');
 $('.enter-page-btn').delay(3000).addClass('animated flipInX');
 
 
-
-
 });
+
 
 // Box shadow effect with OkShadow //
 
