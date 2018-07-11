@@ -1,12 +1,6 @@
 html {
-  /* background-image: url(../img/california_home_page.jpg); */
-  /* background-image: url(../img/hand_light.jpg); */
-  background-color: #FBFFF2;
-  /* background-color: #87BBA2; */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 100%;
+  background-color: white;
+  align-content: center;
 }
 
 #enter-page-click {
@@ -54,13 +48,11 @@ div .animated {
   /* margin-left: 320px; */
 }
 
-@media (max-width: 350px ) {
+@media (max-width: 350px) {
   .my-logo {
-
     width: 200px;
     height: 200px;
   }
-
 }
 
 .logo, .jobs {
@@ -81,25 +73,19 @@ div .animated {
 
 .fa {
   position: relative;
-  /* margin-left: auto; */
-  /* margin-right: auto; */
   margin: 0 auto;
-  /* color: #1C2217; */
-  color: #EC9A29;
-}
-
-.fa.hidden {
-  margin-top: px;
+  color: #E84A5F;
+  /* color: #99B898; */
+  padding: 20px;
 }
 
 .enter-page-btn {
+  margin: 0 auto;
+  text-align: center;
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  color: #070407;
-  /* color: #143642; */
+  color: #2A363B;
+
   font-size: 32px;
-  margin-top: 0px;
-  padding: 12px 16px;
   border: hidden;
   cursor: pointer;
   background-color: transparent;
