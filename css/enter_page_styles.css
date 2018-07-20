@@ -62,14 +62,7 @@ div .animated {
   font-weight: 100;
 }
 
-@keyframes .logo, .jobs {
-  from {
-    color: black;
-  }
-  to {
-    color: yellow;
-  }
-}
+
 
 .fa {
   display: none;
