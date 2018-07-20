@@ -1,16 +1,15 @@
-
 // JavaScript ft. jQuery and Animate.css
 
-$(document).ready(function(){
+$(document).ready(function() {
 
-/*! Fades in page on load */
-$('html').css('display', 'none');
-$('html').delay(250).fadeIn(500);
+  /*! Fades in page on load */
+  $('html').css('display', 'none');
+  $('html').delay(250).fadeIn(500);
 
-// Add CSS classes and animations on load with JavaScript
-$('.my-logo').addClass('animated flipInY');
-$('.social-media-icons-enter-page').delay(1000).addClass('animated flipInX');
-$('.enter-page-btn').delay(3000).addClass('animated flipInX');
+  // Add CSS classes and animations on load with JavaScript
+  $('.my-logo').addClass('animated flipInY');
+  $('.social-media-icons-enter-page').delay(1000).addClass('animated flipInX');
+  $('.enter-page-btn').delay(3000).addClass('animated flipInX');
 
 
 });
@@ -25,29 +24,23 @@ var seekAnim = anime({
   translateX: 0,
   translateY: 100,
   scale: 2,
-  delay: function(el, i, l) { return i * 100; },
+  delay: function(el, i, l) {
+    return i * 100;
+  },
   easing: 'easeOutElastic',
   elasticity: 200,
   autoplay: false
 
-  });
+});
 
 var seekProgressEl = document.querySelector('#seekAnim .progress');
-var socialIcons = document.getElementsByClassName('.fa');
+
 
 seekProgressEl.addEventListener('input', function() {
   seekAnim.seek(seekAnim.duration * (seekProgressEl.value / 100));
 });
 
-  // var socialShow = document.querySelector('#socialSeek');
-  //
-  // socialShow.addEventListener('input', function(){
-  //   if (seekProgressEl.value === 100) {
-  //     $('#socialSeek').hide(10);
-  //   }
-  //
-  //
-  // });
+
 
 
 
@@ -66,13 +59,13 @@ seekProgressEl.addEventListener('input', function() {
 //
 // // Text shadow effect with OkShadow //
 //
-  // $('.enter-page-logo').okshadow({
-  //   color: '#555',
-  //   // color: '#DAD2D8',
-  //   textShadow: true,
-  //   xMax: 5,
-  //   yMax: 10,
-  //   yOffset: 5,
-  //   fuzzMin: 1,
-  //   fuzzMax: 10,
-  // });
+// $('.enter-page-logo').okshadow({
+//   color: '#555',
+//   // color: '#DAD2D8',
+//   textShadow: true,
+//   xMax: 5,
+//   yMax: 10,
+//   yOffset: 5,
+//   fuzzMin: 1,
+//   fuzzMax: 10,
+// });
