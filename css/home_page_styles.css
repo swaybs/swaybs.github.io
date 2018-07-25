@@ -3,3 +3,9 @@
 div .row {
   width: 50%;
 }
+
+@media (max-width: 425px) {
+  div .row {
+    width: 85%;
+  }
+}

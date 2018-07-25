@@ -161,6 +161,17 @@ section {
 
 .column p {
   font-size: 1em;
+
+}
+
+.top-par {
+  text-align: justify;
+}
+
+@media (max-width: 415px ) {
+  div .row {
+    width: 90%;
+  }
 }
 
 /* Clear floats after the columns */
