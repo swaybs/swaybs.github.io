@@ -41,6 +41,12 @@ seekProgressEl.addEventListener('input', function() {
 });
 
 
+// Hide Social Icons on load, Show on click
+
+
+
+
+
 
 
 

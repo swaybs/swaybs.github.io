@@ -10,6 +10,10 @@ html {
   font-weight: bold;
 }
 
+
+
+
+
 div .animated {
   /* animation-duration: 1s; */
 }
@@ -40,6 +44,7 @@ div .animated {
 }
 
 .my-logo {
+
   display: block;
   margin: 0 auto;
   width: 300px;
@@ -65,13 +70,15 @@ div .animated {
 
 
 .fa {
-  display: none;
+
   /* Trying javascript | delete after */
   position: relative;
   margin: 0 auto;
   color: #E84A5F;
   /* color: #99B898; */
   padding: 20px;
+
+
 }
 
 .enter-page-btn {
