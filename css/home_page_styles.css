@@ -4,8 +4,28 @@ div .row {
   width: 50%;
 }
 
+
+
 @media (max-width: 425px) {
   div .row {
     width: 85%;
   }
+}
+
+.skills_column {
+  width: 70%;
+  /* float: left; */
+
+}
+
+.fab {
+
+  font-size: 5em;
+  color: gray;
+  padding: 10px;
+
+}
+
+.fab:hover {
+  color: tomato;
 }

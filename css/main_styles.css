@@ -13,9 +13,10 @@ body {
 /* #page {
   margin: 0 auto;
 } */
-
 #header {
   font-family: 'Poppins', sans-serif;
+  padding-bottom: 20em;
+  padding-top: 15em;
 }
 
 a[href*="mail"], a[href*="tel"] {
@@ -23,9 +24,7 @@ a[href*="mail"], a[href*="tel"] {
 }
 
 /************* NAV BAR STYLES ********** */
-
 /* Navbar container */
-
 .navbar {
   position: relative;
   text-align: center;
@@ -36,7 +35,6 @@ a[href*="mail"], a[href*="tel"] {
 }
 
 /* Links inside the navbar */
-
 .main-nav a {
   color: white;
   text-align: center;
@@ -45,7 +43,6 @@ a[href*="mail"], a[href*="tel"] {
 }
 
 /* Links inside the dropdown */
-
 .dropdown-content a {
   display: inline-block;
   margin-left: auto;
@@ -58,14 +55,12 @@ a[href*="mail"], a[href*="tel"] {
 }
 
 /* Active Menu Item */
-
 .active {
   font-weight: bold;
   border-bottom: 2px solid tomato;
 }
 
 /* Add a grey background color to dropdown links on hover */
-
 .dropdown-content a:hover {
   /* background-color: #ddd; */
   color: black;
@@ -73,23 +68,19 @@ a[href*="mail"], a[href*="tel"] {
 }
 
 /* *********** Classes ************* */
-
 .tree {
   display: block;
   margin: 0 auto;
-
   padding-top: 20px;
   width: 80%;
   opacity: 0.7;
   background-position: center;
   background-repeat: repeat;
-
 }
 
-@media (max-width: 400px ){
+@media (max-width: 400px) {
   .tree {
     width: 100%;
-
   }
 }
 
@@ -106,7 +97,6 @@ a[href*="mail"], a[href*="tel"] {
 }
 
 /* Change Font size of Name and Fields */
-
 .jobs {
   text-align: center;
   /* font-family: 'Libre Frankin', sans-serif; */
@@ -144,11 +134,11 @@ section {
   height: auto;
   /* width: 75%; */
   margin-bottom: 25px;
-  border-bottom: 1px solid #ddd;
+  /* border-bottom: 1px solid #ddd; */
+  border-bottom: 2px solid rgb(214, 214, 214);
 }
 
 .column li {
-
   list-style-type: none;
   font-size: 1.2em;
 }
@@ -161,21 +151,19 @@ section {
 
 .column p {
   font-size: 1em;
-
 }
 
 .top-par {
   text-align: justify;
 }
 
-@media (max-width: 415px ) {
+@media (max-width: 415px) {
   div .row {
     width: 90%;
   }
 }
 
 /* Clear floats after the columns */
-
 .row:after {
   content: "";
   display: table;
@@ -183,14 +171,12 @@ section {
 }
 
 /*********** SOCIAL MEDIA ICONS ************/
-
 .social-media-icons {
   position: relative;
   text-align: center;
 }
 
 /* Style all font awesome icons */
-
 .fa {
   padding: 16px;
   font-size: 16px;
@@ -201,30 +187,25 @@ section {
 }
 
 /* Add a hover effect if you want */
-
 .fa:hover {
   opacity: 0.7;
   color: red;
 }
 
 /* Set a specific color for each brand */
-
 /* Facebook */
-
 .fa-github {
   /* background: #3B5998; */
   color: black;
 }
 
 /* Twitter */
-
 .fa-instagram {
   /* text: #55ACEE; */
   color: black;
 }
 
 /* Linked-IN */
-
 .fa-linkedin {
   /* background: #55ACEE; */
   color: black;
@@ -247,11 +228,11 @@ footer {
 }
 
 /* Media Queries */
-
 @media (min-width: 320px) {
   .logo {
     font-size: 32px;
   }
+
   .jobs {
     font-size: 20px;
   }
@@ -261,7 +242,9 @@ footer {
   .logo {
     font-size: 48px;
   }
+
   .jobs {
     font-size: 28px;
   }
+
   /* Trying out CSS Transition ******** */

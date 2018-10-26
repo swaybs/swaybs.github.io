@@ -4,10 +4,10 @@ $(document).ready(function() {
 
   /*! Fades in page on load */
   $('html').css('display', 'none');
-  $('html').delay(250).fadeIn(500);
+  $('html').delay(500).fadeIn(500);
 
   // Add CSS classes and animations on load with JavaScript
-  $('.my-logo').addClass('animated flipInY');
+  $('.my-logo').addClass('animated flipInX');
   $('.social-media-icons-enter-page').delay(1000).addClass('animated flipInX');
   $('.enter-page-btn').delay(3000).addClass('animated flipInX');
 
