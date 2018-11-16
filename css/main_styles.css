@@ -34,6 +34,19 @@ a[href*="mail"], a[href*="tel"] {
   padding-bottom: 10px;
 }
 
+.top-nav {
+  text-align: center;
+  position: fixed;
+  margin: 0 auto;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  padding-bottom: 10px;
+
+
+
+
+}
+
 /* Links inside the navbar */
 .main-nav a {
   color: white;
@@ -55,7 +68,7 @@ a[href*="mail"], a[href*="tel"] {
 }
 
 /* Active Menu Item */
-.active {
+.top-nav .active {
   font-weight: bold;
   border-bottom: 2px solid tomato;
 }
