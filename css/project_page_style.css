@@ -1,0 +1,46 @@
+
+h1 .title {
+  text-align: center;
+  /* font-family: 'Libre Franklin', sans-serif; */
+  font-family: 'Work Sans', sans-serif;
+  /* font-size: 4em; */
+  font-size: 32px;
+  font-weight: 200;
+  color: #555E66;
+  /* color: #93B391; */
+  padding-top: 50px;
+}
+
+.column {
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 5px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: auto;
+  width: 75%;
+  margin-bottom: 25px;
+  /* border-bottom: 1px solid #ddd; */
+  border-bottom: 2px solid rgb(214, 214, 214);
+}
+
+
+  .jd, .python {
+    margin: 0 auto;
+    font-size: 7.5vw;
+    position: relative;
+    width: 90%;
+    text-align: center;
+    color: #1B181E;
+    font-family: 'Pacifico', cursive;
+    font-weight: lighter !important;
+    padding-top: 100px;
+    /* text-shadow: 2px 6px 11px rgba(1, 1, 1, 1); */
+  }
+  a:hover {
+    /* background-color: #ddd; */
+    color: #1B181E;
+    /* border-bottom: 2px solid lightgray; */
+    text-decoration: none;
+    /* text-shadow: 2px 6px 11px rgba(1, 1, 1, 1); */
+  }
