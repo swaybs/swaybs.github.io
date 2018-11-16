@@ -27,18 +27,27 @@
   <script src="./js/jquery-3.3.1.min.js"></script>
   <link rel="stylesheet" type="text/css" href="./css/main_styles.css">
   <link rel="stylesheet" type="text/css" href="./css/home_page_styles.css">
+  <link rel="stylesheet" type="text/css" href="./css/project_styles.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
   <!-- DEVICON ICONS SHEETS -->
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
 
 
+  <!-- ARGON STYLES -->
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+
+  <!-- Icons -->
+  <link href="/assets/vendor/nucleo/css/nucleo.css" rel="stylesheet">
+  <link href="/assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Theme CSS -->
+  <link type="text/css" href="/assets/css/argon.min.css" rel="stylesheet">
 
 
-
-
-
-
+  <!-- ARGON STYLES -->
 
   <!-- SOCIAL MEDIA ICONS -->
 
@@ -68,110 +77,120 @@
 
 
 
-<div id="mobile-collapse" class="top-nav">
-
-  <!-- <nav class="navbar"> -->
-
-    <div class="dropdown">
-
-      <div class="dropdown-content">
-        <section id="main_trans">
-          <a href="index.html">Main.</a>
-        </section>
-        <section class="home_trans">
-          <a class="active" href="home_page.html">Home.</a>
-        </section>
-        <section class="music_trans">
-          <a href="music.html">Music.</a>
-        </section>
-        <section>
-          <a href="contact.html">Contact.</a>
-        </section>
-      </div>
-    </div>
-
-</div>
 
 
 
 
-    <div id="header">
+  </div>
 
-
-
-
-
-      <div class="logo">Andrew Rothbauer</div>
-      <div class="jobs">Web Developer <span>&#8226;</span> IT Support Specialist <span>&#8226;</span> Producer</div>
-
-
-      <div class="container">
-
-
-
-
-        <!-- <nav class="navbar">
-
-          <div class="dropdown">
-
-            <div class="dropdown-content">
-              <section id="main_trans">
-                <a href="index.html">Main.</a>
-              </section>
-              <section class="home_trans">
-                <a class="active" href="home_page.html">Home.</a>
-              </section>
-              <section class="music_trans">
-                <a href="music.html">Music.</a>
-              </section>
-              <section>
-                <a href="contact.html">Contact.</a>
-              </section>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-default">
+    <div class="container">
+      <a class="navbar-brand" href="#">Projects</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-default">
+        <div class="navbar-collapse-header">
+          <div class="row">
+            <div class="col-6 collapse-brand">
+              <a href="index.html">
+              </a>
+            </div>
+            <div class="col-6 collapse-close">
+              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+              </button>
             </div>
           </div>
-        </nav> -->
-
-
-
-        <div class="social-media-icons">
-          <a href="https://www.linkedin.com/in/andrew-rothbauer-8a040763/" class="fa fa-linkedin" alt="Linked-In"></a>
-          <a href="https://www.instagram.com/swaybs/" class="fa fa-instagram" alt="Instagram"></a>
-          <a href="https://github.com/swaybs" class="fa fa-github" alt="GitHub"></a>
-          <a href="https://www.facebook.com/forkd" class="fa fa-facebook" alt="Facebook"></a>
-          <a href="https://soundcloud.com/pyxisofficial" class="fa fa-soundcloud" alt="Soundcloud"></a>
-
-
-
-
         </div>
+
+        <ul class="navbar-nav ml-lg-auto">
+          <li class="nav-item">
+            <a class="nav-link nav-link-icon" href="#">
+              <i class="ni ni-favourite-28"></i>
+              <span class="nav-link-inner--text">Home</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-icon" href="#">
+              <i class="ni ni-notification-70"></i>
+              <span class="nav-link-inner--text">Music</span>
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link nav-link-icon" href="#" id="navbar-default_dropdown_1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="ni ni-settings-gear-65"></i>
+              <span class="nav-link-inner--text">Contact</span>
+            </a>
+            <li class="nav-item">
+              <a class="nav-link nav-link-icon" href="#">
+                <i class="ni ni-notification-70"></i>
+                <span class="nav-link-inner--text">Contact</span>
+              </a>
+            </li>
+
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbar-default_dropdown_1">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+
       </div>
-
-      <!-- Header Image -->
-
-      <!-- <img src="img/cropped_tree_bar.jpg" alt="Coffee" class="tree"> -->
-
-
     </div>
+  </nav>
+
+
+
+
+
+  <div id="header">
+
+
+
+
+
+    <!-- <div class="logo">Andrew Rothbauer</div>
+      <div class="jobs">Web Developer <span>&#8226;</span> IT Support Specialist <span>&#8226;</span> Producer</div> -->
 
 
 
 
 
 
-      <footer>
-        <div>Andrew Rothbauer<i class="fa fa-copyright fa-sm"></i></div>
-        <div>Contact information : <a href="mailto:andrew.rothbauer@gmail.com">
-            andrew.rothbauer@gmail.com</a></div>
-        <a href="tel:+18127865478">Call</a>
-      </footer>
 
-    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  </div>
 
 
   </div>
   <script src="./js/javascript.js"></script>
   <!-- <script src="./js/jquery-3.3.1.min.js"></script> -->
   <!-- <script src="/js/anime-master/anime-master/anime.min.js"></script> -->
+
+  <!-- ARGON JAVASCRIPT -->
+
+  <!-- Core -->
+  <script src="/assets/vendor/jquery/jquery.min.js"></script>
+  <script src="/assets/vendor/popper/popper.min.js"></script>
+  <script src="/assets/vendor/bootstrap/bootstrap.min.js"></script>
+
+  <!-- Theme JS -->
+  <script src="/assets/js/argon.min.js"></script>
+
+  <!-- ARGON JAVASCRIPT -->
 
 
 </body>
