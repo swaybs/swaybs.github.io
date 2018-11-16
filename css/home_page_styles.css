@@ -29,3 +29,16 @@ div .row {
 .fab:hover {
   color: tomato;
 }
+
+.top-nav section:nth-child(1), section:nth-child(2) {
+  float: left;
+  
+
+
+}
+
+.top-nav section:nth-child(3), section:nth-child(4) {
+  float: right;
+
+
+}

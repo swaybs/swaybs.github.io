@@ -4,6 +4,10 @@ div .row {
   width: 50%;
 }
 
+div .column {
+  padding-top: 125px;
+}
+
 /* .fa:hover {
   transition: .7s ease;
   transform: scale(1.5);
