@@ -186,7 +186,7 @@ section {
 /*********** SOCIAL MEDIA ICONS ************/
 .social-media-icons {
   position: relative;
-  text-align: center;
+  text-align: right;
 }
 
 /* Style all font awesome icons */
@@ -209,27 +209,27 @@ section {
 /* Facebook */
 .fa-github {
   /* background: #3B5998; */
-  color: black;
+  color: #FFFFE5;
 }
 
 /* Twitter */
 .fa-instagram {
   /* text: #55ACEE; */
-  color: black;
+  color: #FFFFE5;
 }
 
 /* Linked-IN */
 .fa-linkedin {
   /* background: #55ACEE; */
-  color: black;
+  color: #FFFFE5;
 }
 
 .fa-facebook {
-  color: black;
+  color: #FFFFE5;
 }
 
 .fa-soundcloud {
-  color: black;
+  color: #FFFFE5;
 }
 
 footer {
